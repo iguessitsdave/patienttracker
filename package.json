@@ -1,0 +1,14 @@
+{
+  "name": "patienttracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  
+  "scripts": {
+    "build": "echo 'Build script here'",
+    "test": "echo 'Test script here'"
+    },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
