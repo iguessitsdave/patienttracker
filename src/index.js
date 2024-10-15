@@ -1,12 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+const express = require('express');
+const app = express();
+const port = process.env.PORT || 3000;
 
-const App = () => {
-    return (
-        <div>
-            <h1>Hello World</h1>
-        </div>
-    );
-};
+app.get('/', (req, res) => {
+  res.send('Hello, World!');
+});
 
-ReactDOM.render(<App />, document.getElementById('root'));
+app.listen(port, () => {
+  console.log(`Server is running on port ${port}`);
+});
