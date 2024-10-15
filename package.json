@@ -6,7 +6,7 @@
   "scripts": {
     "build": "echo 'Build script here'",
     "test": "echo 'Test script here'",
-    "start": "node index.js"
+    "start": "node src/index.js"
 
   },
   "keywords": [],
